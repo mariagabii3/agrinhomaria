@@ -1,0 +1,51 @@
+HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alface Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Cultivo Sustentável de Alface</h1>
+        <p>Aprenda a plantar de forma ecológica e eficiente</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>Por que cultivar de forma sustentável?</h2>
+            <p>O cultivo sustentável economiza água, evita o uso de agrotóxicos prejudiciais e garante um alimento muito mais saudável para a sua mesa, respeitando o ciclo da natureza.</p>
+        </section>
+
+        <section class="card">
+            <h2>Dicas Rápidas de Cultivo</h2>
+            <ul>
+                <li><strong>Sol:</strong> Pelo menos 4 a 6 horas de luz solar direta por dia.</li>
+                <li><strong>Rega:</strong> Mantenha a terra úmida, mas nunca encharcada.</li>
+                <li><strong>Solo:</strong> Rico em matéria orgânica (composto caseiro é excelente).</li>
+            </ul>
+        </section>
+
+        <section class="card interativo">
+            <h2>Calculadora de Economia de Água</h2>
+            <p>Descubra quantos litros de água você pode economizar por mês usando a irrigação por gotejamento em vez da mangueira tradicional!</p>
+            
+            <label for="plantas">Número de pés de alface:</label>
+            <input type="number" id="plantas" value="5" min="1">
+            
+            <button id="btn-calcular">Calcular Economia</button>
+            
+            <div id="resultado" class="escondido"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Guia do Alface Sustentável. Feito com cuidado pelo planeta.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
